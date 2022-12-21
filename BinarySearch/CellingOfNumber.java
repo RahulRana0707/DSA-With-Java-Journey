@@ -3,7 +3,7 @@ package BinarySearch;
 public class CellingOfNumber {
     public static void main(String[] args) {
         int[] arr= {1,3,4,7,22};
-        int target = 56;
+        int target = 7;
         System.out.println(findNumber(arr,target));
     }
     static int findNumber(int[] arr,int target){
